@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D01488872787D2160008392A /* SixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D01488862787D2160008392A /* SixViewController.m */; };
+		D0B0914E2786C3FA0001ADF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B0914D2786C3FA0001ADF2 /* AppDelegate.m */; };
+		D0B091542786C3FA0001ADF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B091532786C3FA0001ADF2 /* ViewController.m */; };
+		D0B091572786C3FA0001ADF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B091552786C3FA0001ADF2 /* Main.storyboard */; };
+		D0B091592786C3FB0001ADF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B091582786C3FB0001ADF2 /* Assets.xcassets */; };
+		D0B0915C2786C3FB0001ADF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B0915A2786C3FB0001ADF2 /* LaunchScreen.storyboard */; };
+		D0B0915F2786C3FB0001ADF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B0915E2786C3FB0001ADF2 /* main.m */; };
+		D0B091692786C3FB0001ADF2 /* JCTabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B091682786C3FB0001ADF2 /* JCTabBarControllerTests.m */; };
+		D0B091732786C3FB0001ADF2 /* JCTabBarControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B091722786C3FB0001ADF2 /* JCTabBarControllerUITests.m */; };
+		D0B091752786C3FB0001ADF2 /* JCTabBarControllerUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B091742786C3FB0001ADF2 /* JCTabBarControllerUITestsLaunchTests.m */; };
+		D0B091842786C5580001ADF2 /* JCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B091832786C5580001ADF2 /* JCTabBarController.m */; };
+		D0B091872786C5A00001ADF2 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B091862786C5A00001ADF2 /* OneViewController.m */; };
+		D0B0918A2786C5AA0001ADF2 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B091892786C5AA0001ADF2 /* TwoViewController.m */; };
+		D0B0918D2786C5B50001ADF2 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B0918C2786C5B50001ADF2 /* ThreeViewController.m */; };
+		D0B091902786C5BE0001ADF2 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B0918F2786C5BE0001ADF2 /* FourViewController.m */; };
+		D0B091932786C5CB0001ADF2 /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B091922786C5CB0001ADF2 /* FiveViewController.m */; };
+		D0B091962786C64D0001ADF2 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B091942786C64D0001ADF2 /* BaseNavigationController.m */; };
+		D0B091A32786C78A0001ADF2 /* JCTabarView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B0919A2786C78A0001ADF2 /* JCTabarView.m */; };
+		D0B091A42786C78A0001ADF2 /* JCConvexCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B0919B2786C78A0001ADF2 /* JCConvexCell.m */; };
+		D0B091A52786C78A0001ADF2 /* JCTabbarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B0919D2786C78A0001ADF2 /* JCTabbarCell.m */; };
+		D0B091C32786CAE90001ADF2 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B091AB2786CAE90001ADF2 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		D0B091C42786CAE90001ADF2 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B091B42786CAE90001ADF2 /* ViewController+MASAdditions.m */; };
+		D0B091C52786CAE90001ADF2 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B091B82786CAE90001ADF2 /* MASCompositeConstraint.m */; };
+		D0B091C62786CAE90001ADF2 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B091B92786CAE90001ADF2 /* MASConstraintMaker.m */; };
+		D0B091C72786CAE90001ADF2 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B091BA2786CAE90001ADF2 /* MASLayoutConstraint.m */; };
+		D0B091C82786CAE90001ADF2 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B091BB2786CAE90001ADF2 /* NSArray+MASAdditions.m */; };
+		D0B091C92786CAE90001ADF2 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B091BC2786CAE90001ADF2 /* View+MASAdditions.m */; };
+		D0B091CA2786CAE90001ADF2 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B091BF2786CAE90001ADF2 /* MASConstraint.m */; };
+		D0B091CB2786CAE90001ADF2 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B091C12786CAE90001ADF2 /* MASViewConstraint.m */; };
+		D0B091CC2786CAE90001ADF2 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B091C22786CAE90001ADF2 /* MASViewAttribute.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0B091652786C3FB0001ADF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0B091412786C3FA0001ADF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0B091482786C3FA0001ADF2;
+			remoteInfo = JCTabBarController;
+		};
+		D0B0916F2786C3FB0001ADF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0B091412786C3FA0001ADF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0B091482786C3FA0001ADF2;
+			remoteInfo = JCTabBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D01488852787D2160008392A /* SixViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SixViewController.h; sourceTree = "<group>"; };
+		D01488862787D2160008392A /* SixViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SixViewController.m; sourceTree = "<group>"; };
+		D0B091492786C3FA0001ADF2 /* JCTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B0914C2786C3FA0001ADF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0B0914D2786C3FA0001ADF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0B091522786C3FA0001ADF2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D0B091532786C3FA0001ADF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D0B091562786C3FA0001ADF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0B091582786C3FB0001ADF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0B0915B2786C3FB0001ADF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0B0915D2786C3FB0001ADF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0B0915E2786C3FB0001ADF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0B091642786C3FB0001ADF2 /* JCTabBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCTabBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B091682786C3FB0001ADF2 /* JCTabBarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCTabBarControllerTests.m; sourceTree = "<group>"; };
+		D0B0916E2786C3FB0001ADF2 /* JCTabBarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCTabBarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B091722786C3FB0001ADF2 /* JCTabBarControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCTabBarControllerUITests.m; sourceTree = "<group>"; };
+		D0B091742786C3FB0001ADF2 /* JCTabBarControllerUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCTabBarControllerUITestsLaunchTests.m; sourceTree = "<group>"; };
+		D0B091822786C5580001ADF2 /* JCTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCTabBarController.h; sourceTree = "<group>"; };
+		D0B091832786C5580001ADF2 /* JCTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCTabBarController.m; sourceTree = "<group>"; };
+		D0B091852786C5A00001ADF2 /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		D0B091862786C5A00001ADF2 /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		D0B091882786C5AA0001ADF2 /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		D0B091892786C5AA0001ADF2 /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		D0B0918B2786C5B50001ADF2 /* ThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		D0B0918C2786C5B50001ADF2 /* ThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		D0B0918E2786C5BE0001ADF2 /* FourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		D0B0918F2786C5BE0001ADF2 /* FourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		D0B091912786C5CB0001ADF2 /* FiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FiveViewController.h; sourceTree = "<group>"; };
+		D0B091922786C5CB0001ADF2 /* FiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiveViewController.m; sourceTree = "<group>"; };
+		D0B091942786C64D0001ADF2 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		D0B091952786C64D0001ADF2 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		D0B091992786C78A0001ADF2 /* JCTabbarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCTabbarCell.h; sourceTree = "<group>"; };
+		D0B0919A2786C78A0001ADF2 /* JCTabarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCTabarView.m; sourceTree = "<group>"; };
+		D0B0919B2786C78A0001ADF2 /* JCConvexCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCConvexCell.m; sourceTree = "<group>"; };
+		D0B0919D2786C78A0001ADF2 /* JCTabbarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCTabbarCell.m; sourceTree = "<group>"; };
+		D0B0919F2786C78A0001ADF2 /* JCConvexCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCConvexCell.h; sourceTree = "<group>"; };
+		D0B091A02786C78A0001ADF2 /* JCTabarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCTabarView.h; sourceTree = "<group>"; };
+		D0B091A82786C8ED0001ADF2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D0B091AA2786CAE90001ADF2 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		D0B091AB2786CAE90001ADF2 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		D0B091AC2786CAE90001ADF2 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		D0B091AD2786CAE90001ADF2 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		D0B091AE2786CAE90001ADF2 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		D0B091AF2786CAE90001ADF2 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		D0B091B02786CAE90001ADF2 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		D0B091B12786CAE90001ADF2 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		D0B091B22786CAE90001ADF2 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		D0B091B32786CAE90001ADF2 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		D0B091B42786CAE90001ADF2 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		D0B091B52786CAE90001ADF2 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		D0B091B62786CAE90001ADF2 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		D0B091B72786CAE90001ADF2 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		D0B091B82786CAE90001ADF2 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		D0B091B92786CAE90001ADF2 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		D0B091BA2786CAE90001ADF2 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		D0B091BB2786CAE90001ADF2 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		D0B091BC2786CAE90001ADF2 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		D0B091BD2786CAE90001ADF2 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		D0B091BE2786CAE90001ADF2 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		D0B091BF2786CAE90001ADF2 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		D0B091C02786CAE90001ADF2 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		D0B091C12786CAE90001ADF2 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		D0B091C22786CAE90001ADF2 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0B091462786C3FA0001ADF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B091612786C3FB0001ADF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B0916B2786C3FB0001ADF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0B091402786C3FA0001ADF2 = {
+			isa = PBXGroup;
+			children = (
+				D0B0914B2786C3FA0001ADF2 /* JCTabBarController */,
+				D0B091672786C3FB0001ADF2 /* JCTabBarControllerTests */,
+				D0B091712786C3FB0001ADF2 /* JCTabBarControllerUITests */,
+				D0B0914A2786C3FA0001ADF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0B0914A2786C3FA0001ADF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0B091492786C3FA0001ADF2 /* JCTabBarController.app */,
+				D0B091642786C3FB0001ADF2 /* JCTabBarControllerTests.xctest */,
+				D0B0916E2786C3FB0001ADF2 /* JCTabBarControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0B0914B2786C3FA0001ADF2 /* JCTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				D0B091A82786C8ED0001ADF2 /* PrefixHeader.pch */,
+				D0B091A92786CAE90001ADF2 /* Masonry */,
+				D0B091812786C5410001ADF2 /* JCTabBarController */,
+				D0B0914C2786C3FA0001ADF2 /* AppDelegate.h */,
+				D0B0914D2786C3FA0001ADF2 /* AppDelegate.m */,
+				D0B091522786C3FA0001ADF2 /* ViewController.h */,
+				D0B091532786C3FA0001ADF2 /* ViewController.m */,
+				D0B091552786C3FA0001ADF2 /* Main.storyboard */,
+				D0B091582786C3FB0001ADF2 /* Assets.xcassets */,
+				D0B0915A2786C3FB0001ADF2 /* LaunchScreen.storyboard */,
+				D0B0915D2786C3FB0001ADF2 /* Info.plist */,
+				D0B0915E2786C3FB0001ADF2 /* main.m */,
+			);
+			path = JCTabBarController;
+			sourceTree = "<group>";
+		};
+		D0B091672786C3FB0001ADF2 /* JCTabBarControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0B091682786C3FB0001ADF2 /* JCTabBarControllerTests.m */,
+			);
+			path = JCTabBarControllerTests;
+			sourceTree = "<group>";
+		};
+		D0B091712786C3FB0001ADF2 /* JCTabBarControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0B091722786C3FB0001ADF2 /* JCTabBarControllerUITests.m */,
+				D0B091742786C3FB0001ADF2 /* JCTabBarControllerUITestsLaunchTests.m */,
+			);
+			path = JCTabBarControllerUITests;
+			sourceTree = "<group>";
+		};
+		D0B091812786C5410001ADF2 /* JCTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				D0B091972786C78A0001ADF2 /* tabbar */,
+				D0B091952786C64D0001ADF2 /* BaseNavigationController.h */,
+				D0B091942786C64D0001ADF2 /* BaseNavigationController.m */,
+				D0B091822786C5580001ADF2 /* JCTabBarController.h */,
+				D0B091832786C5580001ADF2 /* JCTabBarController.m */,
+				D0B091852786C5A00001ADF2 /* OneViewController.h */,
+				D0B091862786C5A00001ADF2 /* OneViewController.m */,
+				D0B091882786C5AA0001ADF2 /* TwoViewController.h */,
+				D0B091892786C5AA0001ADF2 /* TwoViewController.m */,
+				D0B0918B2786C5B50001ADF2 /* ThreeViewController.h */,
+				D0B0918C2786C5B50001ADF2 /* ThreeViewController.m */,
+				D0B0918E2786C5BE0001ADF2 /* FourViewController.h */,
+				D0B0918F2786C5BE0001ADF2 /* FourViewController.m */,
+				D0B091912786C5CB0001ADF2 /* FiveViewController.h */,
+				D0B091922786C5CB0001ADF2 /* FiveViewController.m */,
+				D01488852787D2160008392A /* SixViewController.h */,
+				D01488862787D2160008392A /* SixViewController.m */,
+			);
+			path = JCTabBarController;
+			sourceTree = "<group>";
+		};
+		D0B091972786C78A0001ADF2 /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				D0B091A02786C78A0001ADF2 /* JCTabarView.h */,
+				D0B0919A2786C78A0001ADF2 /* JCTabarView.m */,
+				D0B091992786C78A0001ADF2 /* JCTabbarCell.h */,
+				D0B0919D2786C78A0001ADF2 /* JCTabbarCell.m */,
+				D0B0919F2786C78A0001ADF2 /* JCConvexCell.h */,
+				D0B0919B2786C78A0001ADF2 /* JCConvexCell.m */,
+			);
+			path = tabbar;
+			sourceTree = "<group>";
+		};
+		D0B091A92786CAE90001ADF2 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				D0B091AA2786CAE90001ADF2 /* MASCompositeConstraint.h */,
+				D0B091AB2786CAE90001ADF2 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				D0B091AC2786CAE90001ADF2 /* MASConstraint+Private.h */,
+				D0B091AD2786CAE90001ADF2 /* MASLayoutConstraint.h */,
+				D0B091AE2786CAE90001ADF2 /* NSArray+MASShorthandAdditions.h */,
+				D0B091AF2786CAE90001ADF2 /* MASConstraintMaker.h */,
+				D0B091B02786CAE90001ADF2 /* View+MASAdditions.h */,
+				D0B091B12786CAE90001ADF2 /* NSArray+MASAdditions.h */,
+				D0B091B22786CAE90001ADF2 /* MASUtilities.h */,
+				D0B091B32786CAE90001ADF2 /* MASViewAttribute.h */,
+				D0B091B42786CAE90001ADF2 /* ViewController+MASAdditions.m */,
+				D0B091B52786CAE90001ADF2 /* MASViewConstraint.h */,
+				D0B091B62786CAE90001ADF2 /* MASConstraint.h */,
+				D0B091B72786CAE90001ADF2 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				D0B091B82786CAE90001ADF2 /* MASCompositeConstraint.m */,
+				D0B091B92786CAE90001ADF2 /* MASConstraintMaker.m */,
+				D0B091BA2786CAE90001ADF2 /* MASLayoutConstraint.m */,
+				D0B091BB2786CAE90001ADF2 /* NSArray+MASAdditions.m */,
+				D0B091BC2786CAE90001ADF2 /* View+MASAdditions.m */,
+				D0B091BD2786CAE90001ADF2 /* View+MASShorthandAdditions.h */,
+				D0B091BE2786CAE90001ADF2 /* Masonry.h */,
+				D0B091BF2786CAE90001ADF2 /* MASConstraint.m */,
+				D0B091C02786CAE90001ADF2 /* ViewController+MASAdditions.h */,
+				D0B091C12786CAE90001ADF2 /* MASViewConstraint.m */,
+				D0B091C22786CAE90001ADF2 /* MASViewAttribute.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0B091482786C3FA0001ADF2 /* JCTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B091782786C3FB0001ADF2 /* Build configuration list for PBXNativeTarget "JCTabBarController" */;
+			buildPhases = (
+				D0B091452786C3FA0001ADF2 /* Sources */,
+				D0B091462786C3FA0001ADF2 /* Frameworks */,
+				D0B091472786C3FA0001ADF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JCTabBarController;
+			productName = JCTabBarController;
+			productReference = D0B091492786C3FA0001ADF2 /* JCTabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0B091632786C3FB0001ADF2 /* JCTabBarControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B0917B2786C3FB0001ADF2 /* Build configuration list for PBXNativeTarget "JCTabBarControllerTests" */;
+			buildPhases = (
+				D0B091602786C3FB0001ADF2 /* Sources */,
+				D0B091612786C3FB0001ADF2 /* Frameworks */,
+				D0B091622786C3FB0001ADF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0B091662786C3FB0001ADF2 /* PBXTargetDependency */,
+			);
+			name = JCTabBarControllerTests;
+			productName = JCTabBarControllerTests;
+			productReference = D0B091642786C3FB0001ADF2 /* JCTabBarControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0B0916D2786C3FB0001ADF2 /* JCTabBarControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B0917E2786C3FB0001ADF2 /* Build configuration list for PBXNativeTarget "JCTabBarControllerUITests" */;
+			buildPhases = (
+				D0B0916A2786C3FB0001ADF2 /* Sources */,
+				D0B0916B2786C3FB0001ADF2 /* Frameworks */,
+				D0B0916C2786C3FB0001ADF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0B091702786C3FB0001ADF2 /* PBXTargetDependency */,
+			);
+			name = JCTabBarControllerUITests;
+			productName = JCTabBarControllerUITests;
+			productReference = D0B0916E2786C3FB0001ADF2 /* JCTabBarControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0B091412786C3FA0001ADF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					D0B091482786C3FA0001ADF2 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					D0B091632786C3FB0001ADF2 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = D0B091482786C3FA0001ADF2;
+					};
+					D0B0916D2786C3FB0001ADF2 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = D0B091482786C3FA0001ADF2;
+					};
+				};
+			};
+			buildConfigurationList = D0B091442786C3FA0001ADF2 /* Build configuration list for PBXProject "JCTabBarController" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0B091402786C3FA0001ADF2;
+			productRefGroup = D0B0914A2786C3FA0001ADF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0B091482786C3FA0001ADF2 /* JCTabBarController */,
+				D0B091632786C3FB0001ADF2 /* JCTabBarControllerTests */,
+				D0B0916D2786C3FB0001ADF2 /* JCTabBarControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0B091472786C3FA0001ADF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B0915C2786C3FB0001ADF2 /* LaunchScreen.storyboard in Resources */,
+				D0B091592786C3FB0001ADF2 /* Assets.xcassets in Resources */,
+				D0B091572786C3FA0001ADF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B091622786C3FB0001ADF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B0916C2786C3FB0001ADF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0B091452786C3FA0001ADF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B0918A2786C5AA0001ADF2 /* TwoViewController.m in Sources */,
+				D01488872787D2160008392A /* SixViewController.m in Sources */,
+				D0B091962786C64D0001ADF2 /* BaseNavigationController.m in Sources */,
+				D0B091C42786CAE90001ADF2 /* ViewController+MASAdditions.m in Sources */,
+				D0B091842786C5580001ADF2 /* JCTabBarController.m in Sources */,
+				D0B091542786C3FA0001ADF2 /* ViewController.m in Sources */,
+				D0B091CC2786CAE90001ADF2 /* MASViewAttribute.m in Sources */,
+				D0B091C72786CAE90001ADF2 /* MASLayoutConstraint.m in Sources */,
+				D0B091C62786CAE90001ADF2 /* MASConstraintMaker.m in Sources */,
+				D0B091CB2786CAE90001ADF2 /* MASViewConstraint.m in Sources */,
+				D0B091902786C5BE0001ADF2 /* FourViewController.m in Sources */,
+				D0B091932786C5CB0001ADF2 /* FiveViewController.m in Sources */,
+				D0B0914E2786C3FA0001ADF2 /* AppDelegate.m in Sources */,
+				D0B091A52786C78A0001ADF2 /* JCTabbarCell.m in Sources */,
+				D0B091C32786CAE90001ADF2 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				D0B091C82786CAE90001ADF2 /* NSArray+MASAdditions.m in Sources */,
+				D0B091C52786CAE90001ADF2 /* MASCompositeConstraint.m in Sources */,
+				D0B091872786C5A00001ADF2 /* OneViewController.m in Sources */,
+				D0B0915F2786C3FB0001ADF2 /* main.m in Sources */,
+				D0B091CA2786CAE90001ADF2 /* MASConstraint.m in Sources */,
+				D0B0918D2786C5B50001ADF2 /* ThreeViewController.m in Sources */,
+				D0B091A42786C78A0001ADF2 /* JCConvexCell.m in Sources */,
+				D0B091A32786C78A0001ADF2 /* JCTabarView.m in Sources */,
+				D0B091C92786CAE90001ADF2 /* View+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B091602786C3FB0001ADF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B091692786C3FB0001ADF2 /* JCTabBarControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B0916A2786C3FB0001ADF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B091732786C3FB0001ADF2 /* JCTabBarControllerUITests.m in Sources */,
+				D0B091752786C3FB0001ADF2 /* JCTabBarControllerUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0B091662786C3FB0001ADF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0B091482786C3FA0001ADF2 /* JCTabBarController */;
+			targetProxy = D0B091652786C3FB0001ADF2 /* PBXContainerItemProxy */;
+		};
+		D0B091702786C3FB0001ADF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0B091482786C3FA0001ADF2 /* JCTabBarController */;
+			targetProxy = D0B0916F2786C3FB0001ADF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0B091552786C3FA0001ADF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B091562786C3FA0001ADF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0B0915A2786C3FB0001ADF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B0915B2786C3FB0001ADF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0B091762786C3FB0001ADF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0B091772786C3FB0001ADF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0B091792786C3FB0001ADF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48876B9XRB;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JCTabBarController/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JCTabBarController/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcTabbar.test.app.JCTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D0B0917A2786C3FB0001ADF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48876B9XRB;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JCTabBarController/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JCTabBarController/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcTabbar.test.app.JCTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D0B0917C2786C3FB0001ADF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48876B9XRB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcTabbar.test.app.JCTabBarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JCTabBarController.app/JCTabBarController";
+			};
+			name = Debug;
+		};
+		D0B0917D2786C3FB0001ADF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48876B9XRB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcTabbar.test.app.JCTabBarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JCTabBarController.app/JCTabBarController";
+			};
+			name = Release;
+		};
+		D0B0917F2786C3FB0001ADF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48876B9XRB;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcTabbar.test.app.JCTabBarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JCTabBarController;
+			};
+			name = Debug;
+		};
+		D0B091802786C3FB0001ADF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48876B9XRB;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcTabbar.test.app.JCTabBarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JCTabBarController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0B091442786C3FA0001ADF2 /* Build configuration list for PBXProject "JCTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B091762786C3FB0001ADF2 /* Debug */,
+				D0B091772786C3FB0001ADF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B091782786C3FB0001ADF2 /* Build configuration list for PBXNativeTarget "JCTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B091792786C3FB0001ADF2 /* Debug */,
+				D0B0917A2786C3FB0001ADF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B0917B2786C3FB0001ADF2 /* Build configuration list for PBXNativeTarget "JCTabBarControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B0917C2786C3FB0001ADF2 /* Debug */,
+				D0B0917D2786C3FB0001ADF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B0917E2786C3FB0001ADF2 /* Build configuration list for PBXNativeTarget "JCTabBarControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B0917F2786C3FB0001ADF2 /* Debug */,
+				D0B091802786C3FB0001ADF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0B091412786C3FA0001ADF2 /* Project object */;
+}
